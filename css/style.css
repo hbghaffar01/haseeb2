@@ -81,7 +81,7 @@
 }
 
 .main_wrapper .ft-1::before {
-  content: url(./image/layer.png);
+  content: url(../image/layer.png);
   position: absolute;
   margin-top: 64px;
   margin-left: 53px;

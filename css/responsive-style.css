@@ -686,10 +686,17 @@
   z-index: 0;
   margin-left: -1rem;
 }
+#img #click {
+    border-radius: 2rem;
+    margin-left: -0.2rem;
+    margin-left: 5px;
+}
 .row2{
   margin-top: 5rem;
 }
-/* footer  */
+.footer_wrapper .row{
+  text-align: center;
+}
 }
 
 @media(max-width:480px){
@@ -881,5 +888,13 @@
   font-size: 12px;
   line-height: 1.25;
   margin-bottom: 25px;
+}
+#img #click {
+  border-radius: 2rem;
+  margin-left: -0.2rem;
+  margin-left: 5px;
+  display: flex;
+  position: relative;
+  margin: 0;
 }
 }
